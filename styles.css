@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+.calculator {
+    padding: 4px;
+    margin: 4px;
+    background-color: #3a4655;
+    border-radius:8px;
+    width: 100%;
+    height: auto;
+    /* Box shadow for different browsers */
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.75);
+}
+  
+.form-control {
+    border: 0px solid transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+  
+.btn {
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    background-color: #2a2e4b;    
+}
+
+#display {
+    background: #bcbcbc;
+    padding: 8px;
+    margin:16px 12px 10px 16px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    border-radius:8px;
+}
+
+#result p{
+  font-size:1.8em;
+}
+
+#result,
+#expression {
+  text-align: right;  
+}

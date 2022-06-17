@@ -1,0 +1,119 @@
+<!-- jQuery Calculator -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <meta charset="utf-8" />
+    <!-- Required CDN's -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script defer src="scripts.js"></script>
+    
+</head>
+  
+<body style="background-color:#f9f9fa;">
+  
+    <div class="row">
+        <div class="col-sm-2 col-md-4">   </div>
+        <div class="col-sm-8 col-md-4">
+            <!-- Calculator UI -->
+            <br>
+            <br>
+            <br>
+            <div class="container calculator">
+                <div id="display">
+                    <div id="expression"><p>0</p></div>
+                    <div id="result"><p>0</p></div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="1">1</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="2">2</button>
+                        </div>
+                         <div class="col-sm-3">
+                            <button class="btn btn-light" value="3">3</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="+"
+                                 style="background-color:orange;">+</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="4">4</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="5">5</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="6">6</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="-" 
+                                style="background-color:orange;">-</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="7">7</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="8">8</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="9">9</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="*" 
+                                 style="background-color:orange;">*</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="0">0</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value=".">.</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="ce">&larr;</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="/"
+                                 style="background-color:orange;">/</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="("
+                                 style="background-color:red;">(</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value=")" 
+                                 style="background-color:red;">)</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="ac"
+                                 style="background-color:red;">AC</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-light" value="="
+                                 style="background-color:red;">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-4">   </div>
+    </div>
+
+</body>
+  
+</html>
